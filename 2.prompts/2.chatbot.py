@@ -7,6 +7,7 @@ message=[
 ]
 while True:
     user_inp=input('You: ')
+    print("hello")
     message.append(HumanMessage(content=user_inp))
     if user_inp=='exit':
         break;
