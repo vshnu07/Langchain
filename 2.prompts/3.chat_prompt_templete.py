@@ -1,3 +1,5 @@
+#create dynamic templete
+
 from langchain_core.prompts import ChatPromptTemplate
 chat_templete=ChatPromptTemplate([
     ("system","you are a helpful {domain} expert"),
