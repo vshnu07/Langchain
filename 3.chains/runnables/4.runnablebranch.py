@@ -25,7 +25,5 @@ branch_chain=RunnableBranch(
     (lambda x: len(x.split())>500, RunnableSequence(prompt2,model,parser)),
     RunnablePassthrough()
 )
-
 final_chain=RunnableSequence(report_gen,branch_chain)
-
 print(final_chain.invoke({"topic":"USA VS IRAN"}))
