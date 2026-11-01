@@ -27,3 +27,6 @@ scikit-learn
 
 # Ollama
 langchain-ollama
+
+#langchian community
+langchain-community
