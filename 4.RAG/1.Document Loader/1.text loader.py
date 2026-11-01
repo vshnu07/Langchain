@@ -14,7 +14,7 @@ prompt=PromptTemplate(
 )
 parser=StrOutputParser()
 
-loader=TextLoader("./cricket.txt",encoding="utf-8")
+loader=TextLoader("/Users/gollavishnu/Downloads/GenAI using Langchain/4.RAG/1.Document Loader/cricket.txt",encoding="utf-8")
 
 docs=loader.load()
 
